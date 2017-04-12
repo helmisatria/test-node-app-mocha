@@ -1,0 +1,16 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "this is just a training for testing node server",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "Helmi Satria",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
+}
